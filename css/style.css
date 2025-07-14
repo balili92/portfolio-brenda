@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+
 @font-face {
   font-family: "Drip October";
   src: url("../fonts/DripOctoberRegular.eot");
@@ -19,14 +21,22 @@ body {
 
 header {
   background-color: #00bfa5;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
 }
 
 h1 {
-  font-family: "Drip October";
+  font-family: "Tektur";
+  font-weight: 600;
+  font-style: normal;
+}
+
+header p {
+  font-family: "Tektur";
+  font-weight: 400;
+  font-style: normal;
 }
 
 section {
