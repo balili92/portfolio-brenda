@@ -87,3 +87,11 @@ li {
   display: inline;
   margin-right: 10px;
 }
+
+li img{
+  opacity:.5;
+}
+
+li img:hover{
+  opacity:1;
+}
