@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Drip October";
+  src: url("../fonts/DripOctoberRegular.eot");
+  src: url("../fonts/DripOctoberRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DripOctoberRegular.woff2") format("woff2"),
+    url("../fonts/DripOctoberRegular.woff") format("woff"),
+    url("../fonts/DripOctoberRegular.svg#DripOctoberRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 40px;
@@ -11,6 +23,10 @@ header {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+}
+
+h1 {
+  font-family: "Drip October";
 }
 
 section {
