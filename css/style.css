@@ -16,12 +16,12 @@ body {
 }
 
 header {
-  background-color: #00bfa5;
   color: rgb(255, 255, 255);
   width: 100%;
   border-radius: 10px;
   text-align: center;
-  background-image: url("/img/fondo.jpg")
+  background-image: url("/img/fondo.jpg");
+  background-size: 100%;
 }
 
 h1, h2 {
@@ -103,4 +103,8 @@ li.tecnologia {
    border-radius: 100%;
    padding:15px;
    background-color: black;
+}
+
+li.tecnologia:hover {
+  opacity:0.5;
 }
