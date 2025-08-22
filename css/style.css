@@ -10,30 +10,35 @@
 
 body {
   font-family: Arial, sans-serif;
-  margin:5%;
+  margin: 5%;
   background-color: #f7f7f7;
   color: #333;
 }
 
 header {
   color: rgb(255, 255, 255);
-  width: 95%;
-  border-radius: 10px;
+  width: 100%;
+  border-radius: 15px;
   text-align: center;
-  background-image: linear-gradient(to right, #003973 0%, #ffffff  51%, #003973  100%);
-  padding: 15px 45px;
+  background-image: linear-gradient(
+    to right,
+    #003973 0%,
+    #ffffff 51%,
+    #003973 100%
+  );
+  padding: 10px;
   transition: 0.5s;
-  background-size: 200% auto;         
+  background-size: 200% auto;
   box-shadow: 0 0 20px #eee;
 }
 
 header:hover {
   background-position: right center; /* change the direction of the change here */
   color: #000000;
-  text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "Tektur";
   font-weight: 600;
   font-style: normal;
@@ -45,15 +50,20 @@ header p {
   font-style: normal;
 }
 
-header li a{
+header li a {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 15px;
+  background-color: lightblue;
   list-style: none;
   text-decoration-line: none;
-  color:white;
+  color: rgb(0, 0, 0);
 }
 
-header li a:hover{
-  opacity: .5;
-  color:black;
+header li a:hover {
+  opacity: 0.5;
+  color: black;
 }
 
 section {
@@ -88,7 +98,7 @@ footer {
 .tecnologia i {
   font-size: 30px; /* Tamaño del icono */
   margin-bottom: 8px;
-  color: #00bfa5; /
+  color: #00bfa5;
 }
 
 .tecnologia span {
@@ -103,29 +113,27 @@ footer {
   width: 20px;
 }
 
-
 li {
   list-style: none;
   display: inline;
   margin-right: 10px;
 }
 
-li img{
-  opacity:.5;
+.redes li img {
+  opacity: 0.5;
 }
 
-li img:hover{
-  opacity:1;
+.redes li img:hover {
+  opacity: 1;
 }
-
 
 li.tecnologia {
-   border: 2px solid black;
-   border-radius: 100%;
-   padding:15px;
-   background-color: black;
+  border: 2px solid black;
+  border-radius: 100%;
+  padding: 15px;
+  background-color: black;
 }
 
 li.tecnologia:hover {
-  opacity:0.5;
+  opacity: 0.5;
 }
