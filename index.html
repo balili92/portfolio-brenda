@@ -12,15 +12,14 @@
 
     <!-- Para diferentes dispositivos (opcional) -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
   
   <body>
     <header>
-      <h1>Hola, soy Brenda 👩‍💻</h1>
-      <p>Desarrolladora Full Stack en formación 🚀</p>
+      <p><img src="img/yo.jpg" alt="imagendemi">Brenda Alandes</p>
 
-      <nav>
+      <nav class="menuheader">
         <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="pages/sobremi.html">Sobre mí</a></li>
@@ -28,39 +27,8 @@
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
       </nav>
-    </header>
-
-    <main>
-    <section>
-    <h2>Tecnologías que estoy aprendiendo</h2>
-      <ul class="fila">
-        <li class="tecnologia" title="HTML">
-          <i class="fa-brands fa-html5"></i>
-          <span>HTML</span>
-        </li>
-        <li class="tecnologia" title="CSS">
-          <i class="fa-brands fa-css3-alt"></i>
-          <span>CSS</span>
-        </li>
-        <li class="tecnologia" title="Python">
-          <i class="fa-brands fa-python"></i>
-          <span>Python</span>
-        </li>
-        <li class="tecnologia" title="MySQL">
-          <i class="fa-solid fa-database"></i>
-          <span>MySQL</span>
-        </li>
-        <li class="tecnologia" title="Git">
-          <i class="fa-solid fa-code-branch"></i>
-          <span>Git</span>
-        </li>
-      </ul>
-    </section>
-
-
-    <section class="redes">
-      <h2>Conóceme</h2>
-      <p>
+      <div class="redes">
+      <nav class="menuredes">
         <ul>
           <li><a href="https://github.com/balili92" target="_blank" title="Github"
           ><img class="icon" src="icons/github.png" alt="Github"></a></li>
@@ -73,13 +41,83 @@
           
         </ul>
         
-      </p>
-    </section>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <div class="presentacion">
+            <h1>Brenda <span>Alandes</span></h1>
+            <p>FullStack Developer en formación</p>
+        </div>
+        <div class="tecnologias">
+            <ul>
+                <li class="tecnologia" title="HTML">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML</span>
+                </li>
+                <li class="tecnologia" title="CSS">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS</span>
+                </li>
+                <li class="tecnologia" title="Python">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+                </li>
+                <li class="tecnologia" title="MySQL">
+                <i class="fa-solid fa-database"></i>
+                <span>MySQL</span>
+                </li>
+                <li class="tecnologia" title="Git">
+                <i class="fa-solid fa-code-branch"></i>
+                <span>Git</span>
+                </li>
+            </ul>
+        </div>
+        <div class="proyectos">
+          <h2 class="headproject">Proyectos</h2>
+            <article class="project">
+                <h3>Proyecto 1</h3>
+
+            </article>
+            <article class="project">
+                <h3>Proyecto 2</h3>
+
+            </article>
+            <article class="project">
+                <h3>Proyecto 3</h3>
+
+            </article>
+        </div>
+
+
+    
 
     </main>
 
     <footer>
-      <p>Creado por Brenda © 2025</p>
+      
+      <nav class="menuheader">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/sobremi.html">Sobre mí</a></li>
+        <li><a href="pages/proyectos.html">Portfolio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      
+      <nav class="menuredes">
+        <ul>
+          <li><a href="https://github.com/balili92" target="_blank" title="Github"
+          ><img class="icon" src="icons/github.png" alt="Github"></a></li>
+          <li><a href="https://www.facebook.com/brenda.alandescodina" target="_blank" title="Facebook"
+          ><img class="icon" src="icons/facebook.png" alt="Facebook"></a></li>
+          <li><a href="https://www.instagram.com/brendaalandes/" target="_blank" title="Instagram"
+          ><img class="icon" src="icons/instagram.png" alt="Instagram"></a></li>
+          <li><a href="https://www.linkedin.com/in/brenda-alandes-dev/" target="_blank" title="Linkedin"
+          ><img class="icon" src="icons/linkedin.svg" alt="Linkedin"></a></li>
+          
+        </ul>
+        <p> © Brenda Alandes, Valencia, Spain</p>
     </footer>
   </body>
 </html>
