@@ -161,15 +161,13 @@ a {
   color: rgba(0, 0, 0, 0.67);
 }
 
-.project h4,
-p {
-  margin: 5px;
+.project {
+  text-align: center;
 }
-
 .project p {
   font-size: 15px;
   text-align: justify;
-  max-width: 340px;
+  margin: 0 50px 0px 50px;
 }
 
 /*FOOTER*/
