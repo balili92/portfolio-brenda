@@ -88,6 +88,10 @@ a {
 
 /*MAIN*/
 
+li a:hover {
+  cursor: url(../img/pokemon.png) 16 16, auto;
+}
+
 .presentacion {
   text-align: center;
 }
@@ -150,7 +154,6 @@ a {
   display: grid;
   gap: 10px;
   grid: 1fr / repeat(3, 1fr);
-  justify-content: center;
   padding: 15px;
 }
 
