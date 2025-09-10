@@ -8,13 +8,18 @@
   font-display: swap;
 }
 
-@media (width<1050px) {
+@media (width<1024px) {
   html {
     font-size: 14px;
   }
 
   div.proyectos {
     grid-template-columns: 1fr;
+  }
+
+  header *,
+  footer * {
+    font-size: 0.7rem;
   }
 
   header {
