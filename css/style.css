@@ -27,6 +27,10 @@
   }
 }
 
+:root {
+  --color-header: #091a28;
+}
+
 body,
 html {
   width: 100%;
@@ -51,7 +55,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(9 26 40 / var(--tw-bg-opacity, 1));
+  background-color: var(--color-header);
 }
 
 header p {
@@ -61,7 +65,7 @@ header p {
 }
 
 header p img {
-  width: 3rem;
+  width: 4rem;
   border-radius: 50px;
 }
 
@@ -163,7 +167,7 @@ li a:hover {
 }
 
 .tecnologias i {
-  font-size: 55px; /* Tamaño del icono */
+  font-size: 4rem; /* Tamaño del icono */
   margin-bottom: 0.5rem;
   color: rgb(9 26 40 / var(--tw-bg-opacity, 1));
 }
@@ -201,7 +205,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: rgb(9 26 40 / var(--tw-bg-opacity, 1));
+  background-color: var(--color-header);
 }
 
 footer p {
